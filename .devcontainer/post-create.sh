@@ -7,6 +7,7 @@ echo "post-create start" >> ~/.status.log
 k3d cluster create kargo-quickstart | tee -a ~/.status.log
 
 export GITHUB_USER="${GITHUB_USER,,}"
+export GITHUB_REPOSITORY="${GITHUB_REPOSITORY,,}"
 
 ## Update Repo With proper username
 bash .devcontainer/scripts/update-repo-for-workshop.sh | tee -a ~/.status.log
