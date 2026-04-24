@@ -11,3 +11,9 @@ source ~/.bashrc
 
 ## Log it
 echo "post-start complete" >> ~/.status.log
+
+arch=$(uname -m); [ "$arch" = "x86_64" ] && arch=amd64
+curl -L -o /tmp/kargo "https://github.com/akuity/kargo/releases/latest/download/kargo-linux-${arch}"
+chmod +x /tmp/kargo
+sudo mv /tmp/kargo /usr/local/bin/kargo
+hash -r
