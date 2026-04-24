@@ -7,6 +7,6 @@ resources:
 namespace: guestbook-simple-prod
 
 images:
-- name: ghcr.io/MazArslan/guestbook
-  newName: ghcr.io/MazArslan/guestbook
+- name: ghcr.io/mazarslan/guestbook
+  newName: ghcr.io/mazarslan/guestbook
   newTag: v0.0.1

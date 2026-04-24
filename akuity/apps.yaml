@@ -24,7 +24,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/MazArslan/akuity-kargo-th
+        repoURL: https://github.com/mazarslan/akuity-kargo-th
         targetRevision: env/{{env}}
         path: .
       destination:

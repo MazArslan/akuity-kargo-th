@@ -6,5 +6,5 @@ metadata:
 spec:
   subscriptions:
   - image:
-      repoURL: ghcr.io/MazArslan/guestbook
+      repoURL: ghcr.io/mazarslan/guestbook
       discoveryLimit: 5

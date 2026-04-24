@@ -14,9 +14,9 @@ spec:
     spec:
       vars:
       - name: gitRepo
-        value: https://github.com/MazArslan/akuity-kargo-th
+        value: https://github.com/mazarslan/akuity-kargo-th
       - name: imageRepo
-        value: ghcr.io/MazArslan/guestbook
+        value: ghcr.io/mazarslan/guestbook
       steps:
       - uses: git-clone
         config:
@@ -75,9 +75,9 @@ spec:
     spec:
       vars:
       - name: gitRepo
-        value: https://github.com/MazArslan/akuity-kargo-th
+        value: https://github.com/mazarslan/akuity-kargo-th
       - name: imageRepo
-        value: ghcr.io/MazArslan/guestbook
+        value: ghcr.io/mazarslan/guestbook
       steps:
       - uses: git-clone
         config:
@@ -136,9 +136,9 @@ spec:
     spec:
       vars:
       - name: gitRepo
-        value: https://github.com/MazArslan/akuity-kargo-th
+        value: https://github.com/mazarslan/akuity-kargo-th
       - name: imageRepo
-        value: ghcr.io/MazArslan/guestbook
+        value: ghcr.io/mazarslan/guestbook
       steps:
       - uses: git-clone
         config:
